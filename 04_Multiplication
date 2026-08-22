@@ -1,0 +1,15 @@
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+int x,y,product;
+clrscr();
+cout<<"Enter any number:"<<endl;
+cin>>x;
+cout<<"Enter another number:"<<endl;
+cin>>y;
+product =x*y;
+cout<<"The product is:"<<product;
+getch();
+return 0;
+}
