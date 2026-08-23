@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
-int x=3,y=4,temp;
+int a=3,b=4,temp;
 clrscr();
 cout<<"Before swapping:a="<<a<<",b="<<b<<endl;
 temp=a;
@@ -12,5 +12,4 @@ cout<<"After swapping:a="<<a<<",b="<<b<<endl;
 getch();
 return 0;
 }
-
 
