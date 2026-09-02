@@ -2,30 +2,30 @@
 #include<conio.h>
 int main()
 {
-clrscr();
-int x,y,z;
-cout<<"Enter first number:";
-cin>>x;
-cout<<"Enter second number:";
-cin>>y;
-cout<<"Enter third number:";
-cin>>z;
-if (x>y && x>z)
- {
-  cout<<"The largest number is x";
- }
-else if (y>x && y>z)
- {
-  cout<<"The largest number is y";
- }
-else if (z>x && z>y)
- {
-  cout<<"The largest number is z";
- }
-else
- {
-  cout<<"All numbers are equal.";
- }
-getch();
-return 0;
+  clrscr();
+  int x,y,z;
+  cout<<"Enter first number:";
+  cin>>x;
+  cout<<"Enter second number:";
+  cin>>y;
+  cout<<"Enter third number:";
+  cin>>z;
+  if (x>y && x>z)
+  {
+    cout<<"The largest number is x";
+  }
+  else if (y>x && y>z)
+  {
+    cout<<"The largest number is y";
+  }
+  else if (z>x && z>y)
+  {
+    cout<<"The largest number is z";
+  }
+  else
+  {
+    cout<<"All numbers are equal.";
+  }
+  getch();
+  return 0;
 }
