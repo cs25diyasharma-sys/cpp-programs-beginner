@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+int add(int,int)
+
+int main()
+{
+add(20,40);
+clrscr();
+getch();
+return 0;
+}
+
+int add(int a,int b)
+{
+int c;
+c=a+b;
+cout<<"Sum:"<<c;
+return c;
+}
