@@ -1,7 +1,6 @@
 #include<iostream.h>
 #include<conio.h>
 int add(int,int)
-
 int main()
 {
 add(20,40);
